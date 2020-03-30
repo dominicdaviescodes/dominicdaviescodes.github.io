@@ -162,7 +162,41 @@ h6 {
   background: #343a40;
 }
 
+/* SECTION STYLES */
 
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* Skills */
+.skills-section {
+  background-color: #D9BE3B;
+}
+
+.skill-icon {
+  background-color: #fff;
+  color: #D9BE3B;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
 
 @media (min-width: 992px) {
   .masthead {
