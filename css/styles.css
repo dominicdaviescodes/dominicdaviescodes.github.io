@@ -1,4 +1,4 @@
-/*!  this portfolio is totally based on the wonderful theme mentioned below. Please visit and support them.  However I hope mine looks very different to the original -  Dominic Davies
+/*!  this portfolio is totally based on the wonderful theme mentioned below. Please visit and support them.  However I hope mine looks very different to the original... eventually -  Dominic Davies
 
 * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2019 Start Bootstrap
@@ -30,13 +30,13 @@ h6 {
 }
 
 a {
-  color: #1D809F;
+  color: #932BD9;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #155d74;
+  color: #932BD9;
 }
 
 
@@ -190,7 +190,8 @@ a:active {
 }
 
 /* Skills */
-.skills-section {
+.skills-section,
+footer.footer {
   background-color: #393440;
 }
 
@@ -245,6 +246,33 @@ a:active {
   font-weight: 300;
   font-size: 1.2rem;
 }
+
+
+/* FOOTER AREA */
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #fff;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #393440;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #932BD9;
+  text-decoration: none;
+}
+
+/* LARGE SCREENS   */
 
 @media (min-width: 992px) {
   .masthead {
