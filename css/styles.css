@@ -206,9 +206,9 @@ footer.footer {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.text-faded {
+/* .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
+} */
 
 
 /* Portfolio */
@@ -270,6 +270,36 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #932BD9;
   text-decoration: none;
+}
+
+/* SCROLL TO TOP FEATURE */
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(147, 43, 217, 0.5);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  /* background: #343a40; */
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #000;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
 }
 
 /* LARGE SCREENS   */
