@@ -40,4 +40,16 @@
     }
   });
 
+  // Enable popovers on buttons
+  // $(function () {
+  //   $('[data-toggle="popover"]').popover()
+  // })
+
+  // Enable popovers on containers
+  $(function () {
+    $('.example-popover').popover({
+      container: 'body'
+    })
+  })
+
 })(jQuery); // End of use strict
